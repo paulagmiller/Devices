@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ed88c593680425be8ce6dfa697e6717c">
+		["MD5-CAM-1.0.1"] = <"30ceadb2bc5aaec7cc8169a4fc41d70b">
 		["build_uid"] = <"bf0bfbe5-edb9-38e2-8dc1-c3bf934d003f">
 	>
 
@@ -45,7 +45,7 @@ definition
 							DV_TEXT matches {*}
 						}
 					}
-					ELEMENT[at0008] occurrences matches {0..1} matches {    -- Stored
+					ELEMENT[at0008] occurrences matches {0..1} matches {    -- Place kept
 						value matches {
 							DV_TEXT matches {*}
 						}
@@ -100,7 +100,7 @@ ontology
 					description = <"*">
 				>
 				["at0008"] = <
-					text = <"Stored">
+					text = <"Place kept">
 					description = <"*">
 				>
 			>
