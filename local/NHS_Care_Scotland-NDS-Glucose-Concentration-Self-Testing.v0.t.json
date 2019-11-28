@@ -166,7 +166,7 @@
       "children" : [ {
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
-        "occurrences" : "0..*",
+        "occurrences" : "0..1",
         "nodeId" : "at0.0.2",
         "attributes" : [ ],
         "attributeTuples" : [ ],
@@ -471,6 +471,7 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "POINT_EVENT",
+              "occurrences" : "0..1",
               "nodeId" : "at0002.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
